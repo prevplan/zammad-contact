@@ -1,12 +1,12 @@
 <?php
 
-require_once 'vendor/autoload.php';
+require_once '../vendor/autoload.php';
 
 use DevCoder\DotEnv;
 use ZammadAPIClient\Client;
 use ZammadAPIClient\ResourceType;
 
-$absolutePathToEnvFile = __DIR__ . '/.env';
+$absolutePathToEnvFile = '../.env';
 
 (new DotEnv($absolutePathToEnvFile))->load();
 
