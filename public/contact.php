@@ -43,7 +43,7 @@ $ticket = $client->resource(ResourceType::TICKET);
 $ticket->setValues($ticket_data);
 $ticket->save();
 
-header('Location: https://'. $_GET['return']);
+header('Location: '. $_GET['return']);
 exit;
 
 // not used at the moment...
