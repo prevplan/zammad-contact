@@ -579,25 +579,25 @@
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v3.0.0",
+            "version": "v2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "c726b64c1ccfe2896cb7df2e1331c357ad1c8ced"
+                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/c726b64c1ccfe2896cb7df2e1331c357ad1c8ced",
-                "reference": "c726b64c1ccfe2896cb7df2e1331c357ad1c8ced",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
+                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0.2"
+                "php": ">=7.1"
             },
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "3.0-dev"
+                    "dev-main": "2.5-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
@@ -626,7 +626,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.0.0"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.1"
             },
             "funding": [
                 {
@@ -642,20 +642,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2021-11-01T23:48:49+00:00"
+            "time": "2022-01-02T09:53:40+00:00"
         },
         {
             "name": "zammad/zammad-api-client-php",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zammad/zammad-api-client-php.git",
-                "reference": "14099928589c1a9e9b3fafcf596241ddff666143"
+                "reference": "5beef23ef645cda3f3bb39d703a82ae2a602fbd5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zammad/zammad-api-client-php/zipball/14099928589c1a9e9b3fafcf596241ddff666143",
-                "reference": "14099928589c1a9e9b3fafcf596241ddff666143",
+                "url": "https://api.github.com/repos/zammad/zammad-api-client-php/zipball/5beef23ef645cda3f3bb39d703a82ae2a602fbd5",
+                "reference": "5beef23ef645cda3f3bb39d703a82ae2a602fbd5",
                 "shasum": ""
             },
             "require": {
@@ -689,9 +689,9 @@
             ],
             "support": {
                 "issues": "https://github.com/zammad/zammad-api-client-php/issues",
-                "source": "https://github.com/zammad/zammad-api-client-php/tree/2.0.2"
+                "source": "https://github.com/zammad/zammad-api-client-php/tree/2.0.3"
             },
-            "time": "2021-03-29T15:35:51+00:00"
+            "time": "2022-04-14T09:41:49+00:00"
         }
     ],
     "packages-dev": [],
@@ -702,5 +702,5 @@
     "prefer-lowest": false,
     "platform": [],
     "platform-dev": [],
-    "plugin-api-version": "2.2.0"
+    "plugin-api-version": "2.3.0"
 }
