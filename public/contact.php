@@ -6,6 +6,12 @@ use DevCoder\DotEnv;
 use ZammadAPIClient\Client;
 use ZammadAPIClient\ResourceType;
 
+// simple spam prevent
+if ($_POST['email_repeat']) { // if entered the honeypot
+    http_response_code(404); // smells like a bot and get a 404
+    exit;
+}
+
 $absolutePathToEnvFile = '../.env';
 
 (new DotEnv($absolutePathToEnvFile))->load();
