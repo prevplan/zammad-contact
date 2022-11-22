@@ -1,6 +1,37 @@
 {
-  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": [
-    "config:base"
-  ]
+    "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+    "extends": [
+        "config:base",
+        "schedule:daily",
+        ":disableRateLimiting",
+        ":preserveSemverRanges",
+        ":dependencyDashboard",
+        ":rebaseStalePrs",
+        ":enableVulnerabilityAlertsWithLabel('security')",
+        "group:recommended"
+    ],
+    "timezone": "Europe/Berlin",
+    "packageRules": [
+        {
+            "matchPackagePrefixes": ["@types/"],
+            "automerge": true,
+            "major": {
+                "automerge": false
+            }
+        },
+        {
+            "matchDepTypes": ["devDependencies"],
+            "matchPackagePatterns": ["lint", "prettier"],
+            "automerge": true
+        },
+        {
+            "description": "Auto merge small changes as per https://docs.renovatebot.com/configuration-options/#automerge",
+            "matchUpdateTypes": ["patch", "pin", "digest", "lockFileMaintenance"],
+            "automerge": true
+        }
+    ],
+    "lockFileMaintenance": {
+        "enabled": true,
+        "automerge": true
+    }
 }
