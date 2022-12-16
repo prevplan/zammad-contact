@@ -1,6 +1,6 @@
 {
     "require": {
         "zammad/zammad-api-client-php": "^2.0",
-        "devcoder-xyz/php-dotenv": "^1.1"
+        "devcoder-xyz/php-dotenv": "^2.0"
     }
 }
