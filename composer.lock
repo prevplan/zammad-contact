@@ -4,24 +4,24 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "766c220ddaaf0afc6bfb3890043c6b80",
+    "content-hash": "23025e501ec80d5b1244ca13810cd474",
     "packages": [
         {
             "name": "devcoder-xyz/php-dotenv",
-            "version": "1.1.1",
+            "version": "2.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devcoder-xyz/php-dotenv.git",
-                "reference": "1f478184b7fd199f5ffb0f89c1547f61c8172042"
+                "reference": "a1f3cb5e3109fd51f681b105f8b6e57a801b5108"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devcoder-xyz/php-dotenv/zipball/1f478184b7fd199f5ffb0f89c1547f61c8172042",
-                "reference": "1f478184b7fd199f5ffb0f89c1547f61c8172042",
+                "url": "https://api.github.com/repos/devcoder-xyz/php-dotenv/zipball/a1f3cb5e3109fd51f681b105f8b6e57a801b5108",
+                "reference": "a1f3cb5e3109fd51f681b105f8b6e57a801b5108",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.3"
+                "php": ">=7.4"
             },
             "require-dev": {
                 "phpunit/phpunit": "^9.4"
@@ -39,16 +39,16 @@
             ],
             "authors": [
                 {
-                    "name": "Fad M.R",
-                    "email": "fadymichel@devcoder.xyz"
+                    "name": "F.Michel",
+                    "email": "dev@devcoder.xyz"
                 }
             ],
             "description": "Parses .env files",
             "support": {
                 "issues": "https://github.com/devcoder-xyz/php-dotenv/issues",
-                "source": "https://github.com/devcoder-xyz/php-dotenv/tree/1.1.1"
+                "source": "https://github.com/devcoder-xyz/php-dotenv/tree/2.0.0"
             },
-            "time": "2021-07-17T21:19:15+00:00"
+            "time": "2022-12-15T10:20:35+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
