@@ -8,16 +8,16 @@
     "packages": [
         {
             "name": "devcoder-xyz/php-dotenv",
-            "version": "2.1.0",
+            "version": "2.1.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/devcoder-xyz/php-dotenv.git",
-                "reference": "7b52064d15bad6715a7b5664da400fec078b863e"
+                "reference": "50bc75ae13a670766e10e2d916774b2923140c0d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/devcoder-xyz/php-dotenv/zipball/7b52064d15bad6715a7b5664da400fec078b863e",
-                "reference": "7b52064d15bad6715a7b5664da400fec078b863e",
+                "url": "https://api.github.com/repos/devcoder-xyz/php-dotenv/zipball/50bc75ae13a670766e10e2d916774b2923140c0d",
+                "reference": "50bc75ae13a670766e10e2d916774b2923140c0d",
                 "shasum": ""
             },
             "require": {
@@ -46,9 +46,9 @@
             "description": "Parses .env files",
             "support": {
                 "issues": "https://github.com/devcoder-xyz/php-dotenv/issues",
-                "source": "https://github.com/devcoder-xyz/php-dotenv/tree/2.1.0"
+                "source": "https://github.com/devcoder-xyz/php-dotenv/tree/2.1.1"
             },
-            "time": "2023-02-12T13:12:39+00:00"
+            "time": "2023-02-15T12:03:28+00:00"
         },
         {
             "name": "guzzlehttp/guzzle",
