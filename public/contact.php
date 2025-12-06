@@ -34,7 +34,6 @@ $ticket_data = [
     'customer_id' =>  "guess:" . htmlspecialchars($_POST['email']),
     'type'        => 'email',
     'article'     => [
-        'type_id' => 1,
         'from'    =>  htmlspecialchars($_POST['name']).' <'. htmlspecialchars($_POST['email']).'>',
         'to'      => 'PrevHelp Support',
         'subject' =>  htmlspecialchars($_POST['subject']),
